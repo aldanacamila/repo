@@ -47,7 +47,7 @@
     <section>
     <form id="formulario">
       <div class="nombre">
-    <label for="nombre"> Cuál es tu nombre?</label>
+    <label for="nombre" required> Cuál es tu nombre?</label>
     <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="campo">
       </div>
       
@@ -58,19 +58,21 @@
         
      </div>
       
-      <div class="fecha de nacimiento">
+      <div class="fecha de nacimiento" required>
     <label for="fecha">Fecha de nacimiento</label>
         
       
     <input id="fecha" type="date" name="calendario">
     </div>
       
-       <div class="opinion>
+       <div class="opinion" required >
     <label for="opinion">¿Qué te parece este sitio?</label>
       <textarea> 
       </textarea>
          </div>
-     <button onclick="Enviar()">Enviar</button>
+      
+     <input type="submit">Enviar
+      value
   </form>
       </section>
 </div>
